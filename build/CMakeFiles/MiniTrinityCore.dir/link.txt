@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o -o MiniTrinityCore 
