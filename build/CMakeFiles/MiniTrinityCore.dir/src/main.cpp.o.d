@@ -232,6 +232,7 @@ CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/john/projects/MiniTrinityCore/include/entity/Player.h \
+ /home/john/projects/MiniTrinityCore/include/entity/Unit.h \
  /home/john/projects/MiniTrinityCore/include/entity/WorldObject.h \
  /home/john/projects/MiniTrinityCore/include/entity/Object.h \
  /home/john/projects/MiniTrinityCore/include/world/GuidGenerator.h

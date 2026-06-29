@@ -122,6 +122,7 @@ CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h \
+ /home/john/projects/MiniTrinityCore/include/entity/Unit.h \
  /home/john/projects/MiniTrinityCore/include/entity/WorldObject.h \
  /home/john/projects/MiniTrinityCore/include/entity/Object.h \
  /usr/include/c++/13/cstdint \

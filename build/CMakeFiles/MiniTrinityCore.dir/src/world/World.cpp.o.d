@@ -200,6 +200,7 @@ CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/john/projects/MiniTrinityCore/include/entity/Player.h \
+ /home/john/projects/MiniTrinityCore/include/entity/Unit.h \
  /home/john/projects/MiniTrinityCore/include/entity/WorldObject.h \
  /home/john/projects/MiniTrinityCore/include/entity/Object.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \

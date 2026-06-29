@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/john/projects/MiniTrinityCore/src/entity/Object.cpp" "CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o.d"
   "/home/john/projects/MiniTrinityCore/src/entity/Player.cpp" "CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o.d"
+  "/home/john/projects/MiniTrinityCore/src/entity/Unit.cpp" "CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o.d"
   "/home/john/projects/MiniTrinityCore/src/entity/WorldObject.cpp" "CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o.d"
   "/home/john/projects/MiniTrinityCore/src/main.cpp" "CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o.d"
   "/home/john/projects/MiniTrinityCore/src/world/GuidGenerator.cpp" "CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o" "gcc" "CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o.d"

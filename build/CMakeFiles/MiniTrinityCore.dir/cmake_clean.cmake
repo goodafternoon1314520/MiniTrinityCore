@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o.d"
   "CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o"
   "CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o.d"
+  "CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o"
+  "CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o.d"
   "CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o"
   "CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o.d"
   "CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o"

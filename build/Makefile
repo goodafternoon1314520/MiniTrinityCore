@@ -177,6 +177,30 @@ src/entity/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.s
 .PHONY : src/entity/Player.cpp.s
 
+src/entity/Unit.o: src/entity/Unit.cpp.o
+.PHONY : src/entity/Unit.o
+
+# target to build an object file
+src/entity/Unit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o
+.PHONY : src/entity/Unit.cpp.o
+
+src/entity/Unit.i: src/entity/Unit.cpp.i
+.PHONY : src/entity/Unit.i
+
+# target to preprocess a source file
+src/entity/Unit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.i
+.PHONY : src/entity/Unit.cpp.i
+
+src/entity/Unit.s: src/entity/Unit.cpp.s
+.PHONY : src/entity/Unit.s
+
+# target to generate assembly for a file
+src/entity/Unit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.s
+.PHONY : src/entity/Unit.cpp.s
+
 src/entity/WorldObject.o: src/entity/WorldObject.cpp.o
 .PHONY : src/entity/WorldObject.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... src/entity/Player.o"
 	@echo "... src/entity/Player.i"
 	@echo "... src/entity/Player.s"
+	@echo "... src/entity/Unit.o"
+	@echo "... src/entity/Unit.i"
+	@echo "... src/entity/Unit.s"
 	@echo "... src/entity/WorldObject.o"
 	@echo "... src/entity/WorldObject.i"
 	@echo "... src/entity/WorldObject.s"

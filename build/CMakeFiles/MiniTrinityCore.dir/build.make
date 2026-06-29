@@ -97,10 +97,24 @@ CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/projects/MiniTrinityCore/src/entity/Player.cpp -o CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.s
 
+CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o: CMakeFiles/MiniTrinityCore.dir/flags.make
+CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o: /home/john/projects/MiniTrinityCore/src/entity/Unit.cpp
+CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o: CMakeFiles/MiniTrinityCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o -MF CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o.d -o CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o -c /home/john/projects/MiniTrinityCore/src/entity/Unit.cpp
+
+CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/projects/MiniTrinityCore/src/entity/Unit.cpp > CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.i
+
+CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/projects/MiniTrinityCore/src/entity/Unit.cpp -o CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.s
+
 CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o: CMakeFiles/MiniTrinityCore.dir/flags.make
 CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o: /home/john/projects/MiniTrinityCore/src/entity/WorldObject.cpp
 CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o: CMakeFiles/MiniTrinityCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o -MF CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o.d -o CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o -c /home/john/projects/MiniTrinityCore/src/entity/WorldObject.cpp
 
 CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.s: cmake_force
 CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o: CMakeFiles/MiniTrinityCore.dir/flags.make
 CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o: /home/john/projects/MiniTrinityCore/src/main.cpp
 CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o: CMakeFiles/MiniTrinityCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o -MF CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o.d -o CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o -c /home/john/projects/MiniTrinityCore/src/main.cpp
 
 CMakeFiles/MiniTrinityCore.dir/src/main.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/MiniTrinityCore.dir/src/main.cpp.s: cmake_force
 CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o: CMakeFiles/MiniTrinityCore.dir/flags.make
 CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o: /home/john/projects/MiniTrinityCore/src/world/GuidGenerator.cpp
 CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o: CMakeFiles/MiniTrinityCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o -MF CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o.d -o CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o -c /home/john/projects/MiniTrinityCore/src/world/GuidGenerator.cpp
 
 CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.s: cmake_force
 CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o: CMakeFiles/MiniTrinityCore.dir/flags.make
 CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o: /home/john/projects/MiniTrinityCore/src/world/World.cpp
 CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o: CMakeFiles/MiniTrinityCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o -MF CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o.d -o CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o -c /home/john/projects/MiniTrinityCore/src/world/World.cpp
 
 CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.i: cmake_force
@@ -157,6 +171,7 @@ CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.s: cmake_force
 MiniTrinityCore_OBJECTS = \
 "CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o" \
 "CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o" \
+"CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o" \
 "CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o" \
 "CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o" \
 "CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o" \
@@ -167,13 +182,14 @@ MiniTrinityCore_EXTERNAL_OBJECTS =
 
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/entity/Object.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/entity/Player.cpp.o
+MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/entity/Unit.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/entity/WorldObject.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/world/GuidGenerator.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/src/world/World.cpp.o
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/build.make
 MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MiniTrinityCore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MiniTrinityCore"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniTrinityCore.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
