@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o -o MiniTrinityCore   -L/home/john/projects/MiniTrinityCore/engine/world/include  -Wl,-rpath,/home/john/projects/MiniTrinityCore/engine/world/include engine/entity/libentity.a engine/world/libworld.a engine/entity/libentity.a 

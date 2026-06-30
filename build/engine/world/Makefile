@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles /home/john/projects/MiniTrinityCore/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/john/projects/MiniTrinityCore/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles /home/john/projects/MiniTrinityCore/build/engine/world//CMakeFiles/progress.marks
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,81 +103,80 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/john/projects/MiniTrinityCore/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named MiniTrinityCore
+# Convenience name for target.
+engine/world/CMakeFiles/world.dir/rule:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/CMakeFiles/world.dir/rule
+.PHONY : engine/world/CMakeFiles/world.dir/rule
 
-# Build rule for target.
-MiniTrinityCore: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MiniTrinityCore
-.PHONY : MiniTrinityCore
-
-# fast build rule for target.
-MiniTrinityCore/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/build
-.PHONY : MiniTrinityCore/fast
-
-#=============================================================================
-# Target rules for targets named entity
-
-# Build rule for target.
-entity: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 entity
-.PHONY : entity
-
-# fast build rule for target.
-entity/fast:
-	$(MAKE) $(MAKESILENT) -f engine/entity/CMakeFiles/entity.dir/build.make engine/entity/CMakeFiles/entity.dir/build
-.PHONY : entity/fast
-
-#=============================================================================
-# Target rules for targets named world
-
-# Build rule for target.
-world: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 world
+# Convenience name for target.
+world: engine/world/CMakeFiles/world.dir/rule
 .PHONY : world
 
 # fast build rule for target.
 world/fast:
-	$(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/build
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/build
 .PHONY : world/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/GuidGenerator.o: src/GuidGenerator.cpp.o
+.PHONY : src/GuidGenerator.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/GuidGenerator.cpp.o:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/GuidGenerator.cpp.o
+.PHONY : src/GuidGenerator.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/GuidGenerator.i: src/GuidGenerator.cpp.i
+.PHONY : src/GuidGenerator.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/GuidGenerator.cpp.i:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/GuidGenerator.cpp.i
+.PHONY : src/GuidGenerator.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/GuidGenerator.s: src/GuidGenerator.cpp.s
+.PHONY : src/GuidGenerator.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/GuidGenerator.cpp.s:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/GuidGenerator.cpp.s
+.PHONY : src/GuidGenerator.cpp.s
+
+src/World.o: src/World.cpp.o
+.PHONY : src/World.o
+
+# target to build an object file
+src/World.cpp.o:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/World.cpp.o
+.PHONY : src/World.cpp.o
+
+src/World.i: src/World.cpp.i
+.PHONY : src/World.i
+
+# target to preprocess a source file
+src/World.cpp.i:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/World.cpp.i
+.PHONY : src/World.cpp.i
+
+src/World.s: src/World.cpp.s
+.PHONY : src/World.s
+
+# target to generate assembly for a file
+src/World.cpp.s:
+	cd /home/john/projects/MiniTrinityCore/build && $(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/src/World.cpp.s
+.PHONY : src/World.cpp.s
 
 # Help Target
 help:
@@ -187,12 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MiniTrinityCore"
-	@echo "... entity"
 	@echo "... world"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/GuidGenerator.o"
+	@echo "... src/GuidGenerator.i"
+	@echo "... src/GuidGenerator.s"
+	@echo "... src/World.o"
+	@echo "... src/World.i"
+	@echo "... src/World.s"
 .PHONY : help
 
 
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/john/projects/MiniTrinityCore/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

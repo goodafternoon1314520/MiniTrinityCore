@@ -63,57 +63,130 @@ CMAKE_BINARY_DIR = /home/john/projects/MiniTrinityCore/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: src/all
+all: CMakeFiles/MiniTrinityCore.dir/all
+all: engine/entity/all
+all: engine/world/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/preinstall
+preinstall: engine/entity/preinstall
+preinstall: engine/world/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: src/clean
+clean: CMakeFiles/MiniTrinityCore.dir/clean
+clean: engine/entity/clean
+clean: engine/world/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src
+# Directory level rules for directory engine/entity
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/MiniTrinityCore.dir/all
-.PHONY : src/all
+engine/entity/all: engine/entity/CMakeFiles/entity.dir/all
+.PHONY : engine/entity/all
 
 # Recursive "preinstall" directory target.
-src/preinstall:
-.PHONY : src/preinstall
+engine/entity/preinstall:
+.PHONY : engine/entity/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/MiniTrinityCore.dir/clean
-.PHONY : src/clean
+engine/entity/clean: engine/entity/CMakeFiles/entity.dir/clean
+.PHONY : engine/entity/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/MiniTrinityCore.dir
+# Directory level rules for directory engine/world
+
+# Recursive "all" directory target.
+engine/world/all: engine/world/CMakeFiles/world.dir/all
+.PHONY : engine/world/all
+
+# Recursive "preinstall" directory target.
+engine/world/preinstall:
+.PHONY : engine/world/preinstall
+
+# Recursive "clean" directory target.
+engine/world/clean: engine/world/CMakeFiles/world.dir/clean
+.PHONY : engine/world/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MiniTrinityCore.dir
 
 # All Build rule for target.
-src/CMakeFiles/MiniTrinityCore.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MiniTrinityCore"
-.PHONY : src/CMakeFiles/MiniTrinityCore.dir/all
+CMakeFiles/MiniTrinityCore.dir/all: engine/entity/CMakeFiles/entity.dir/all
+CMakeFiles/MiniTrinityCore.dir/all: engine/world/CMakeFiles/world.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=1,2 "Built target MiniTrinityCore"
+.PHONY : CMakeFiles/MiniTrinityCore.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/MiniTrinityCore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MiniTrinityCore.dir/all
+CMakeFiles/MiniTrinityCore.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MiniTrinityCore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/MiniTrinityCore.dir/rule
+.PHONY : CMakeFiles/MiniTrinityCore.dir/rule
 
 # Convenience name for target.
-MiniTrinityCore: src/CMakeFiles/MiniTrinityCore.dir/rule
+MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/rule
 .PHONY : MiniTrinityCore
 
 # clean rule for target.
-src/CMakeFiles/MiniTrinityCore.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/clean
-.PHONY : src/CMakeFiles/MiniTrinityCore.dir/clean
+CMakeFiles/MiniTrinityCore.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/clean
+.PHONY : CMakeFiles/MiniTrinityCore.dir/clean
+
+#=============================================================================
+# Target rules for target engine/entity/CMakeFiles/entity.dir
+
+# All Build rule for target.
+engine/entity/CMakeFiles/entity.dir/all:
+	$(MAKE) $(MAKESILENT) -f engine/entity/CMakeFiles/entity.dir/build.make engine/entity/CMakeFiles/entity.dir/depend
+	$(MAKE) $(MAKESILENT) -f engine/entity/CMakeFiles/entity.dir/build.make engine/entity/CMakeFiles/entity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target entity"
+.PHONY : engine/entity/CMakeFiles/entity.dir/all
+
+# Build rule for subdir invocation for target.
+engine/entity/CMakeFiles/entity.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/entity/CMakeFiles/entity.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 0
+.PHONY : engine/entity/CMakeFiles/entity.dir/rule
+
+# Convenience name for target.
+entity: engine/entity/CMakeFiles/entity.dir/rule
+.PHONY : entity
+
+# clean rule for target.
+engine/entity/CMakeFiles/entity.dir/clean:
+	$(MAKE) $(MAKESILENT) -f engine/entity/CMakeFiles/entity.dir/build.make engine/entity/CMakeFiles/entity.dir/clean
+.PHONY : engine/entity/CMakeFiles/entity.dir/clean
+
+#=============================================================================
+# Target rules for target engine/world/CMakeFiles/world.dir
+
+# All Build rule for target.
+engine/world/CMakeFiles/world.dir/all: engine/entity/CMakeFiles/entity.dir/all
+	$(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/depend
+	$(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=9,10,11 "Built target world"
+.PHONY : engine/world/CMakeFiles/world.dir/all
+
+# Build rule for subdir invocation for target.
+engine/world/CMakeFiles/world.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/world/CMakeFiles/world.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 0
+.PHONY : engine/world/CMakeFiles/world.dir/rule
+
+# Convenience name for target.
+world: engine/world/CMakeFiles/world.dir/rule
+.PHONY : world
+
+# clean rule for target.
+engine/world/CMakeFiles/world.dir/clean:
+	$(MAKE) $(MAKESILENT) -f engine/world/CMakeFiles/world.dir/build.make engine/world/CMakeFiles/world.dir/clean
+.PHONY : engine/world/CMakeFiles/world.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,10 +1,10 @@
 #include <chrono>
 #include <thread>
 
-#include "world/World.h"
-#include "world/GuidGenerator.h"
-#include "entity/Creature.h"
-#include "entity/Player.h"
+#include "../engine/world/include/world/World.h"
+#include "../engine/world/include/world/GuidGenerator.h"
+#include "../engine/entity/include/Creature.h"
+#include "../engine/entity/include/Player.h"
 
 int main() {
     World world;

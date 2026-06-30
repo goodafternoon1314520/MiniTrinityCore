@@ -1,5 +1,9 @@
+/home/john/projects/MiniTrinityCore/build/CMakeFiles/MiniTrinityCore.dir
 /home/john/projects/MiniTrinityCore/build/CMakeFiles/edit_cache.dir
 /home/john/projects/MiniTrinityCore/build/CMakeFiles/rebuild_cache.dir
-/home/john/projects/MiniTrinityCore/build/src/CMakeFiles/MiniTrinityCore.dir
-/home/john/projects/MiniTrinityCore/build/src/CMakeFiles/edit_cache.dir
-/home/john/projects/MiniTrinityCore/build/src/CMakeFiles/rebuild_cache.dir
+/home/john/projects/MiniTrinityCore/build/engine/entity/CMakeFiles/entity.dir
+/home/john/projects/MiniTrinityCore/build/engine/entity/CMakeFiles/edit_cache.dir
+/home/john/projects/MiniTrinityCore/build/engine/entity/CMakeFiles/rebuild_cache.dir
+/home/john/projects/MiniTrinityCore/build/engine/world/CMakeFiles/world.dir
+/home/john/projects/MiniTrinityCore/build/engine/world/CMakeFiles/edit_cache.dir
+/home/john/projects/MiniTrinityCore/build/engine/world/CMakeFiles/rebuild_cache.dir
