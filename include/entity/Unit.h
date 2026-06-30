@@ -19,7 +19,7 @@ public:
     void Heal(uint32_t value);
 
     // 更新
-    virtual void Update(uint32_t diff) {}
+    virtual void Update(float diff) {}
 
 private:
     uint32_t maxHealth_;

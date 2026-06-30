@@ -8,9 +8,9 @@
 
 class World {
 public:
-    void AddPlayer(std::shared_ptr<Player> player);
+    void AddUnit(std::shared_ptr<Unit> unit);
     void Update();
 
 private:
-    std::vector<std::shared_ptr<Unit>> players_;
+    std::vector<std::shared_ptr<Unit>> units_;
 };

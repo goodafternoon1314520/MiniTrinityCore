@@ -3,13 +3,17 @@
 
 #include "world/World.h"
 #include "world/GuidGenerator.h"
+#include "entity/Creature.h"
+#include "entity/Player.h"
 
 int main() {
     World world;
 
     auto player = std::make_shared<Player>(GuidGenerator::Generate(), "Alice");
+    auto goblin = std::make_shared<Creature>(GuidGenerator::Generate(), 0, 0, 50);
 
-    world.AddPlayer(player);
+    world.AddUnit(player);
+    world.AddUnit(goblin);
 
     while (true) {
         world.Update();

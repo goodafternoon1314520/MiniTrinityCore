@@ -63,42 +63,57 @@ CMAKE_BINARY_DIR = /home/john/projects/MiniTrinityCore/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MiniTrinityCore.dir/all
+all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MiniTrinityCore.dir/clean
+clean: src/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MiniTrinityCore.dir
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/MiniTrinityCore.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/MiniTrinityCore.dir/clean
+.PHONY : src/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/MiniTrinityCore.dir
 
 # All Build rule for target.
-CMakeFiles/MiniTrinityCore.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/build
+src/CMakeFiles/MiniTrinityCore.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/projects/MiniTrinityCore/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MiniTrinityCore"
-.PHONY : CMakeFiles/MiniTrinityCore.dir/all
+.PHONY : src/CMakeFiles/MiniTrinityCore.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MiniTrinityCore.dir/rule: cmake_check_build_system
+src/CMakeFiles/MiniTrinityCore.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MiniTrinityCore.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MiniTrinityCore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/projects/MiniTrinityCore/build/CMakeFiles 0
-.PHONY : CMakeFiles/MiniTrinityCore.dir/rule
+.PHONY : src/CMakeFiles/MiniTrinityCore.dir/rule
 
 # Convenience name for target.
-MiniTrinityCore: CMakeFiles/MiniTrinityCore.dir/rule
+MiniTrinityCore: src/CMakeFiles/MiniTrinityCore.dir/rule
 .PHONY : MiniTrinityCore
 
 # clean rule for target.
-CMakeFiles/MiniTrinityCore.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniTrinityCore.dir/build.make CMakeFiles/MiniTrinityCore.dir/clean
-.PHONY : CMakeFiles/MiniTrinityCore.dir/clean
+src/CMakeFiles/MiniTrinityCore.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MiniTrinityCore.dir/build.make src/CMakeFiles/MiniTrinityCore.dir/clean
+.PHONY : src/CMakeFiles/MiniTrinityCore.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

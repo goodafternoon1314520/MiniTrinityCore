@@ -2,17 +2,17 @@
 
 #include <iostream>
 
-void World::AddPlayer(std::shared_ptr<Player> player) {
-    players_.push_back(player);
+void World::AddUnit(std::shared_ptr<Unit> unit) {
+    units_.push_back(unit);
 
-    std::cout << "Player " << player -> GetName() << " Enter World\n";
+    std::cout << "Unit Enter World\n";
 }
 
 void World::Update() {
     std::cout << "World Tick\n";
 
-    for (auto& player : players_) {
-        std::cout << player -> GetGUID() << " Position(" << player -> GetX() << ", " << player -> GetY() << ")\n";
-        std::cout << player -> GetHealth() << std::endl;
-    }
+    float diff = 1.0f; // 简化时间片
+
+    for (auto& unit : units_)
+        unit -> Update(diff);
 }
